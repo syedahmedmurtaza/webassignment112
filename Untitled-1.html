@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disposable Face Mask</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 2rem;
+            background-color: #f8f8f8;
+        }
+
+        .logo img {
+            width: 150px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 1rem;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .cart a {
+            text-decoration: none;
+            color: #333;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 2rem;
+            background-color: #e7f0f7;
+        }
+
+        .hero-content {
+            max-width: 50%;
+        }
+
+        .hero-content h1 {
+            font-size: 3rem;
+            color: #333;
+        }
+
+        .hero-content .shop-now {
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+        }
+
+        .mission {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .mission h2 {
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        .features {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 1rem;
+        }
+
+        .feature {
+            text-align: center;
+        }
+
+        .feature h3 {
+            margin-bottom: 0.5rem;
+        }
+
+        .progress-bar {
+            width: 100px;
+            height: 10px;
+            background-color: #ddd;
+        }
+
+        .progress {
+            height: 100%;
+            background-color: #007bff;
+        }
+
+        .products {
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .product-carousel {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .product {
+            text-align: center;
+        }
+
+        .product img {
+            max-width: 100px;
+        }
+
+        .product h3 {
+            margin: 0.5rem 0;
+        }
+
+        .product p {
+            margin: 0.5rem 0;
+        }
+
+        .buy-now {
+            padding: 0.5rem 1rem;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .testimonial {
+            padding: 2rem;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .testimonial-content {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: left;
+        }
+
+        .testimonial-content img {
+            max-width: 100px;
+            margin-right: 1rem;
+            float: left;
+        }
+
+        .testimonial-content blockquote {
+            margin: 0;
+            padding-left: 120px;
+            position: relative;
+        }
+
+        .testimonial-content cite {
+            display: block;
+            margin-top: 1rem;
+            font-style: normal;
+            color: #666;
+        }
+
+        footer {
+            padding: 2rem;
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        footer .contact-info {
+            margin-bottom: 1rem;
+        }
+
+        footer .contact-info h2 {
+            font-size: 1.5rem;
+        }
+
+        footer .contact-form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer .contact-form input,
+        footer .contact-form textarea {
+            margin-bottom: 0.5rem;
+            padding: 0.5rem;
+            border: none;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">Our Mission</a></li>
+                <li><a href="#">Our Facility</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <a href="#">0 Item</a>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Disposable Face Mask</h1>
+                <button class="shop-now">Shop Now</button>
+            </div>
+            <div class="hero-image">
+                <img src="mask-image.png" alt="Face Mask">
+            </div>
+        </section>
+        <section class="mission">
+            <h2>Our Mission</h2>
+            <p> AAPNAY GHABRANA NAHI HAI  </p>
+            <div class="features">
+                <div class="feature">
+                    <h3>Virus</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                </div>
+                <div class="feature">
+                    <h3>Bacteria</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 75%;"></div></div>
+                </div>
+                <div class="feature">
+                    <h3>Dust</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 70%;"></div></div>
+                </div>
+                <div class="feature">
+                    <h3>Pollen</h3>
+                    <div class="progress-bar"><div class="progress" style="width: 85%;"></div></div>
+                </div>
+            </div>
+        </section>
+        <section class="products">
+            <h2>Our Products</h2>
+            <div class="product-carousel">
+                <div class="product">
+                    <img src="mask1.png" alt="Mask">
+                    <h3>Double layered mask</h3>
+                    <p>$20</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="mask2.png" alt="Mask">
+                    <h3>Single panel mask</h3>
+                    <p>$30</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="mask3.png" alt="Mask">
+                    <h3>Grey dusk mask</h3>
+                    <p>$40</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+                <div class="product">
+                    <img src="mask4.png" alt="Mask">
+                    <h3>White doctor special mask</h3>
+                    <p>$90</p>
+                    <button class="buy-now">Buy Now</button>
+                </div>
+            </div>
+        </section>
+        <section class="testimonial">
+            <div class="testimonial-content">
+                <img src="customer.png" alt="Customer">
+                <blockquote>
+                    <p>Wearing a facemask is an effective way to reduce the transmission of airborne diseases, including COVID-19. Ensure the mask covers both your nose and mouth fully and fits snugly against the sides of your face without gaps. Wash your hands before putting on the mask, after removing it, and avoid touching it while wearing it. Use masks appropriate for the situation, such as cloth masks for general use and N95 respirators for high-risk settings. Wash reusable masks after each use and dispose of single-use masks properly. For those with respiratory conditions, consult a healthcare provider about the best type of mask. Remember, masks are most effective when combined with other preventive measures like social distancing and vaccination.</p>
+                    <cite>Ahmed bhai, regular CMH patient</cite>
+                </blockquote>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Phone: +123-4567-890, +1234567890</p>
+            <p>Address: Mask Projects, ABC street. XYZ city</p>
+            <form action="#" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <input type="text" name="phone" placeholder="Phone Number" required>
+                <textarea name="message" placeholder="Type Your Message Here" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+        <div class="social-media">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            <a href="#"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+        <p>&copy; 2020 companyname.com. All rights reserved. Designed by FreeHTML5.co</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
